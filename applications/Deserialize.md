@@ -44,8 +44,6 @@ Over $20m in transaction volume
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
-
 Deserialize fits into the Polkadot ecosystem as an all-in-one DeFi trading platform that allows users to perform a number of trading activities all in one interface.
 By leveraging XCM and Polkadot’s secure infrastructure, Deserialize enables zero-fee swap trading, AI-powered routing, and cross-chain automation, helping users trade seamlessly while strengthening Polkadot’s DeFi network through developer tools, ecosystem integrations, and active community growth.
 
