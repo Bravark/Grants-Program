@@ -67,9 +67,9 @@ There are projects in the Polkadot / Kusama / Substrate ecosystem that share som
 
 ### Team members
 
-- Name of team leader
+- Name of team leader:
 Demitchy
-- Names of team members
+- Names of team members:
 Zach
 Ikeoluwa
 Korede
