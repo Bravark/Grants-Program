@@ -115,17 +115,9 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 > If any of your deliverables are based on somebody else's work, make sure you work and publish *under the terms of the license* of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Projects that submit other people's work without proper attribution will be immediately terminated.**
 
 ### Overview
-
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested.
-- **DOT %:** Percentage of Total Costs to be paid in (vested) DOT (≥ 50%)
-
-### Milestone 1 Example — Basic functionality
-
-- **Estimated duration:** 1 month
+- **Estimated duration:** Completed
 - **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Costs:** 20,000 USD
 
 > [!NOTE]
 > **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
@@ -148,10 +140,11 @@ http://docs.deserialize.xyz/api/swap-api/docs/
 
 
 ### Milestone 2 Example — Additional features
-
+ 
+ DCA and Options Trading
 - **Estimated Duration:** 1 month
 - **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Costs:** 15,000 USD
 
 ...
 
