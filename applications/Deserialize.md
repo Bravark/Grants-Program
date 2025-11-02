@@ -21,10 +21,6 @@ If this application is in response to an RFP, please indicate this on the first 
 If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide the name and/or pull request of said grant on the first line of this section.
 
 ### Overview
-
-Please provide the following:
-
-- If the name of your project is not descriptive, a tagline (one sentence summary).
 Deserialize is a multi-chain DeFi trading platform and SDK that unifies fragmented liquidity across DEXs using an AI-powered routing engine.
 It enables efficient swaps, limit orders, DCA, Options Trading and perps with zero fees on swap, profit-sharing, and multi-chain support.
 
@@ -154,6 +150,8 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
 | 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
 | 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+
+http://docs.deserialize.xyz/api/swap-api/docs/
 
 
 ### Milestone 2 Example — Additional features
