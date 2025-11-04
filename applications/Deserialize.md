@@ -120,14 +120,16 @@ Swap Aggregator, Limit Order, Perp, Token Screener
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0
-| **0b.** | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can Swap, trade perps, create a limit order and explain all the term and info on the dex screener.|
-| **0c.** | Dex Aggregatot | Provide our powerful serialize algorithm that route through DEX's to provide the best output for users and  |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness.  |
-| **0d.** | Docker |  |
-| 0e. | Article | We will publish an article/workshop that explains what was done/achieved as part of the grant.|
+| **1.** | License | Apache 2.0
+| **2.** | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can Swap, trade perps, create a limit order and explain all the term and info on the dex screener.|
+| **3.** | Dex Aggregator | Provide our powerful serialize algorithm that route through DEX's to provide the best output for users and  |
+| **4.** | Limit Order| Provide our platform where users can buy and sell their tokens at a target price and expose our API to filers who would match the orders |
+| **5.** | Perp Dex | Provide our powerful serialize algorithm that route through DEX's to provide the best output for users and  |
+| **6.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness.  |
+| **7.** | API Documentation | Provide our API Documentation for developers to integrate and use |
+| **8.** | Specific Dex Routing | Our Algorithm has inter and intra routing we would allow users select a particular Dex  |
+| **9.** | Split Transaction | Our Serialize algorithm would have a split transaction that divides a single order into multiple smaller executions to achieve better price and reduce slippage.|
 
-specific dex routing, split transaction
 
 ### Milestone 2  — Additional features
  
@@ -139,11 +141,11 @@ specific dex routing, split transaction
 ...
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **a.** | License | Apache 2.0
-| **b.** | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can buy and sell options, Create a Grid Trading Position and Open a DCA Position.|
-| **c.** | Options Trading | We will provide both inline documentation of the code and a basic tutorial that explains how a user can buy and sell options, Create a Grid Trading Position and Open a DCA Position.|
-| **d.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness.  |
-| 0e. | Article | We will publish an article/workshop that explains what was done/achieved as part of the grant.|
+| **1.** | License | Apache 2.0|
+| **2.** | API Documentation | Provide our API Documentation for developers to integrate and use|
+| **3.** | Options Trading | Implement the logic and deploy the smart contract  |
+| **4.** | DCA |  Deploy the smart contract that enables users to DCA |
+| **5.**| Grid Trading |Deployment of the smart contract|
 
 
 ## Future Plans
