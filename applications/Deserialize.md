@@ -134,7 +134,7 @@ Swap Aggregator, Limit Order, Perp, Token Screener
 ### Milestone 2  — Additional features
  
  DCA, Options Trading and Grid Trading
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 3 month
 - **FTE:**  1,5
 - **Costs:** 30,000 USD
 
