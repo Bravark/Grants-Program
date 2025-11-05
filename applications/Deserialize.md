@@ -9,10 +9,10 @@
 ### Project Overview
 Deserialize is an all-in-one DeFi trading platform  that features an efficient swap aggregator, Perp dex, limit orders, Grid Trading, Token screener, Options Trading and DCA.
 
-Deserialize as of Aug 22, 2025
-Processed over 140,180 transactions
-Over $20m in transaction volume
-35,000+ users
+Deserialize as of October 30th, 2025
+Processed over 650,195 transactions
+Over $40m in transaction volume
+45,000+ users all on Eclipse and 0G
 
 ### Project Details
 
@@ -22,7 +22,7 @@ Deserialize is a defi focused product, built to make life easier for users & bui
 Deserialize MVP existed as a DEX aggregator, powered by our custom 'serialize' algorithm. We created an infrastructure which is engineered to always find the best swap & trade routes for users. The aggregator intelligently routes intra-DEX and inter-DEX, routing liquidity sources to deliver the most optimal outcomes on atomic swaps. In doing so, it automatically captures arbitrage opportunities when available, giving users the ability to make money on swaps. To aid the devs in integrating our infra, we created
 - SDK (To enable anyone integrate the swap aggregator in their backend)
 - API (To enable easier use of the SDK especially in frontend)
-- UI WIDGET (Efficient swaps page/form without writing any new code)
+- UI WIDGET (This allows you launch your own swap page without writing any code)
 
 #### PERP DEX
 We further empower users with Perpetuals, giving traders the ability to long or short a handful of supported tokens without needing to directly own the underlying assets. Additionally, users can leverage their positions by borrowing from the DEX, amplifying their potential gains (and managing their risk accordingly).
@@ -57,8 +57,6 @@ Several well-known projects in other ecosystems do parts of what Deserialize doe
 There are projects in the Polkadot / Kusama / Substrate ecosystem that share some similarities with Deserialize (e.g Bifrost, HydraDX, ZKLiquid, Zenlink). Deserialize offers a wider scope that focuses on routing across liquidity pools + parachains + SDK integration + users earn arbitrage based on the pay of the pools at that time 
 
 ## Team :busts_in_silhouette:
-
-> [!IMPORTANT]
 
 ### Team members
 
@@ -96,8 +94,6 @@ We have also partnered with a number of protocols in the space; EclipseFND, 0G_l
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
 Currently Our Dex Aggregator, and token screener are live and running on Base, 0G_Labs and Eclipse. Our Limit Order and Perps are fully developed and ready to be deployed and live. we are developing Options Trading and Grid Trading, we have our team fully dedicated to this in order to bring all this incredible features to Polkadot.
 
 ## Development Roadmap :nut_and_bolt:
@@ -115,21 +111,20 @@ Swap Aggregator, Limit Order, Perp, Token Screener
 - **Costs:** 20,000 USD
 
 
-> [!NOTE]
-> **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **1.** | License | Apache 2.0
-| **2.** | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can Swap, trade perps, create a limit order and explain all the term and info on the dex screener.|
-| **3.** | Dex Aggregator | Provide our powerful serialize algorithm that route through DEX's to provide the best output for users and  |
-| **4.** | Limit Order| Provide our platform where users can buy and sell their tokens at a target price and expose our API to filers who would match the orders |
-| **5.** | Perp Dex | Provide our powerful serialize algorithm that route through DEX's to provide the best output for users and  |
-| **6.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness.  |
-| **7.** | API Documentation | Provide our API Documentation for developers to integrate and use |
-| **8.** | Specific Dex Routing | Our Algorithm has inter and intra routing we would allow users select a particular Dex  |
-| **9.** | Split Transaction | Our Serialize algorithm would have a split transaction that divides a single order into multiple smaller executions to achieve better price and reduce slippage.|
-
+| **0a.** | License | Apache 2.0
+| **0b.** | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can Swap, trade perps, create a limit order and explain all the term and info on the dex screener.|
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| **1.** | Dex Aggregator | Provide our powerful serialize algorithm that route through DEX's to provide the best output for users and  |
+| **2.** | Limit Order| Provide our platform where users can buy and sell their tokens at a target price and expose our API to filers who would match the orders |
+| **3.** | Perp Dex | Provide our powerful serialize algorithm that route through DEX's to provide the best output for users and  |
+| **4.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness.  |
+| **5.** | API Documentation | Provide our API Documentation for developers to integrate and use |
+| **6.** | Specific Dex Routing | Our Algorithm has inter and intra routing we would allow users select a particular Dex  |
+| **7.** | Split Transaction | Our Serialize algorithm would have a split transaction that divides a single order into multiple smaller executions to achieve better price and reduce slippage.|
 
 ### Milestone 2  — Additional features
  
@@ -141,11 +136,14 @@ Swap Aggregator, Limit Order, Perp, Token Screener
 ...
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **1.** | License | Apache 2.0|
-| **2.** | API Documentation | Provide our API Documentation for developers to integrate and use|
-| **3.** | Options Trading | Implement the logic and deploy the smart contract  |
-| **4.** | DCA |  Deploy the smart contract that enables users to DCA |
-| **5.**| Grid Trading |Deployment of the smart contract|
+| **0a.** | License | Apache 2.0|
+| **0b.** | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can Swap, trade perps, create a limit order and explain all the term and info on the dex screener.|
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| **1.** | API Documentation | Provide our API Documentation for developers to integrate and use|
+| **2.** | Options Trading | Implement the logic and deploy the smart contract  |
+| **3.** | DCA |  Deploy the smart contract that enables users to DCA |
+| **4.**| Grid Trading |Deployment of the smart contract|
 
 
 ## Future Plans
